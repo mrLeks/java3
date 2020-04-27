@@ -10,7 +10,7 @@ import java.util.Arrays;
             array[firstIndex] = array[secondIndex];
             array[secondIndex] = oneVal;
         }
-
+        //
         private static <T> ArrayList<T> convertToList(T[] array) {
             return new ArrayList<>(Arrays.asList(array));
         }
